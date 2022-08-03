@@ -1,0 +1,7 @@
+- idea: làm 1 trang web quản lý điểm thi thpt quốc gia
+- business:
++ có chức năng login: view admin high level, admin low level và view thí sinh
++ có 1 admin (high level) quản lý toàn bộ thông tin các admin khác: thêm admin low level, update thông tin cá nhân
++ có nhiều admin (low level) quản lý toàn bộ thông tin của thí sinh: thêm thí sinh, edit thông tin cá nhân, xóa thí sinh, update và xem điểm thi của toàn bộ thí sinh
++ thí sinh có thể login vào bằng account để tra cứu điểm thi của mình: điểm theo khối A, A1, D
++ thí sinh không thể tra cứu điểm thi của người khác
