@@ -9,4 +9,52 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>LoginController</display-name>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>com.doducvuong.controller.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>HomeController</display-name>
+    <servlet-name>HomeController</servlet-name>
+    <servlet-class>com.doducvuong.controller.HomeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeController</servlet-name>
+    <url-pattern>/HomeController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DetailController</display-name>
+    <servlet-name>DetailController</servlet-name>
+    <servlet-class>com.doducvuong.controller.DetailController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DetailController</servlet-name>
+    <url-pattern>/DetailController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LogoutController</display-name>
+    <servlet-name>LogoutController</servlet-name>
+    <servlet-class>com.doducvuong.controller.LogoutController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutController</servlet-name>
+    <url-pattern>/LogoutController</url-pattern>
+  </servlet-mapping>
+<filter>
+  <filter-name>LoginFilter</filter-name>
+  <filter-class>com.doducvuong.filter.LoginFilter</filter-class>
+</filter>
+<filter-mapping>
+  <filter-name>LoginFilter</filter-name>
+  <url-pattern>/*</url-pattern>
+</filter-mapping>
 </web-app>

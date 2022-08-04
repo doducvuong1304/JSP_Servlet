@@ -1,0 +1,7 @@
+h1, h2, h3, p, form {
+    text-align: center;
+}
+
+p#error {
+	color: rgb(255, 0, 0);
+}
